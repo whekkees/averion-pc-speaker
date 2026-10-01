@@ -1,5 +1,5 @@
 
-mod io;
+mod arch;
 mod pit;
 mod driver;
 

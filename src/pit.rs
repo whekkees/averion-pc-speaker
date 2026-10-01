@@ -1,4 +1,5 @@
-use crate::io::outb::outb;
+use crate::arch::x86::io::inb;
+use crate::arch::x86::io::outb;
 
 pub const PIT_FREQURENCY : u32 = 1_193_180;
 

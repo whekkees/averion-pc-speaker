@@ -1,5 +1,6 @@
-use crate::{io::{inb::inb, outb::outb}, pit::set_channel_2};
-
+use crate::pit::set_channel_2;
+use crate::arch::x86::io::inb;
+use crate::arch::x86::io::outb;
 
 pub unsafe fn beep (frequrency : u32 ) { 
     set_channel_2(frequrency);
